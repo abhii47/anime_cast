@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zenitsu Agatsuma</title>
     <Style>
         *{
@@ -49,7 +50,7 @@
             justify-content: center;
             align-items: center; 
             width: 100%;
-            background-color: rgb(202, 202, 64);
+            background-color: rgb(254, 116, 23);
             opacity: 0.7;
             border-radius: 3px;
             
@@ -57,7 +58,7 @@
             /* text-align: center; */
         }
         .name-holder h1{
-            color: rgb(254, 116, 23);
+            color: rgb(25, 25, 152);
         }
         .itachi-img img{
             border-radius: 10px;
@@ -70,7 +71,7 @@
             display: flex;
             overflow: auto;
             scrollbar-width: none;
-            border:2px solid orange;
+            border:2px solid rgb(254, 116, 23);
             gap: 15px;
         }
         .slide img{
@@ -92,7 +93,7 @@
         }
         .detail{
             /* border: 2px solid blue; */
-            background-color: rgb(202, 202, 64);
+            background-color: rgb(254, 116, 23);
             border-radius: 5px;
             padding: 2px 20px;
             opacity: 0.8;
@@ -103,19 +104,19 @@
             /* scrollbar-width: none; */
         }
         .detail b{
-            color: rgb(254, 116, 23);
+            color: rgb(25, 25, 152);
             font-size: 18px;
         }
         .detail mark{
             color:beige;
-            background-color: rgb(254, 116, 23);
+            background-color: rgb(25, 25, 152);
         }
         .detail h3{
-            color: rgb(254, 116, 23);
+            color: rgb(25, 25, 152);
             font-family: 'Times New Roman', Times, serif;
         }
         .detail p{
-            color: black;
+            color: white;
         }
         .ability{
             /* border: 2px solid blue; */
@@ -129,7 +130,7 @@
             list-style: none;
         }
         .ability li{
-            color: black;
+            color: white;
         }
         /* .info-div{
             display: flex;
@@ -139,6 +140,46 @@
             overflow: scroll;
             scrollbar-width: none;
         } */
+
+        @media screen and (max-width: 768px) {
+
+            .main-container{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0px;
+            }
+            .image-container{
+                width: 100%;
+                padding: 0px;
+            }
+            .detail-container{
+                width: 100%;
+                margin: 0px;
+            }
+            .memory{
+                width: 100%;
+            }
+            .detail{
+                padding: 0px 10px;
+            }
+            .ability{
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: auto;
+                column-gap: 20px;
+            }
+            .ability li{
+                list-style: circle;
+                width: 100%;
+            }
+            body{
+                background-image: url(https://i.pinimg.com/736x/34/13/4e/34134e289549acc363d8f5c1e854aed7.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+        }
     </Style>
 </head>
 <body>

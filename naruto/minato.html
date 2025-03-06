@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minato Namikaze</title>
     <Style>
         *{
@@ -139,6 +140,46 @@
             overflow: scroll;
             scrollbar-width: none;
         } */
+
+        @media screen and (max-width: 768px) {
+
+            .main-container{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0px;
+            }
+            .image-container{
+                width: 100%;
+                padding: 0px;
+            }
+            .detail-container{
+                width: 100%;
+                margin: 0px;
+            }
+            .memory{
+                width: 100%;
+            }
+            .detail{
+                padding: 0px 10px;
+            }
+            .ability{
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: auto;
+                column-gap: 20px;
+            }
+            .ability li{
+                list-style: circle;
+                width: 100%;
+            }
+            body{
+                background-image: url(https://i.pinimg.com/736x/3f/27/eb/3f27ebe6c44f69f43946f4cab7fa0a3e.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+        }
     </Style>
 </head>
 <body>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naruto Cast</title>
     <Style>
         *{
@@ -29,7 +30,7 @@
             justify-content: center;
             align-items: center;
             padding: 10px;
-            margin-left: 250px;
+            margin-left: 150px;
             margin-top: 40px;
             flex-wrap: wrap;
             overflow: auto;
@@ -38,7 +39,7 @@
             height: 450px;
             /* align-items: center; */
             gap: 10px;
-            width: 30%;
+            width: 35%;
             
         }
         .narutocast{
@@ -70,6 +71,26 @@
         .narutocast button h4{
             padding: 5px 10px;
             margin: 2px;
+        }
+        @media only screen and (max-width: 1024px) {
+            .naruto{
+                width: 50%;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .naruto{
+                width: 60%;
+                margin-left: 5%;
+                margin-top: 0%;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .naruto{
+                width: 100%;
+                margin:0px;
+            }
         }
         
     </Style>

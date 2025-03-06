@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attack On Titan Cast</title>
     <Style>
         *{
@@ -29,8 +30,8 @@
             justify-content: center;
             align-items: center;
             padding: 10px;
-            margin-right: 200px;
-            margin-top: 70px;
+            margin-right: 5%;
+            /* margin-top: 70px; */
             float: right;
             flex-wrap: wrap;
             overflow: auto;
@@ -39,7 +40,7 @@
             height: 450px;
             /* align-items: center; */
             gap: 10px;
-            width: 30%;
+            width: 40%;
             
         }
         .aotcast{
@@ -72,6 +73,28 @@
             padding: 5px 10px;
             margin: 2px;
             color: #382118;
+        }
+        @media only screen and (max-width: 1024px) {
+            .aot{
+                width: 40%;
+                /* margin-left: 5%; */
+                margin-top: 0%;
+                margin-right: 5%;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .aot{
+                width: 60%;
+                /* margin-left: 20%; */
+                margin-right: 20%;
+                margin-top: 0%;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .aot{
+                width: 100%;
+                margin:0px;
+            }
         }
         
     </Style>

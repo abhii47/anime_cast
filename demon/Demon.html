@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon Cast</title>
     <Style>
         *{
@@ -38,7 +39,7 @@
             height: 450px;
             /* align-items: center; */
             gap: 10px;
-            width: 30%;
+            width: 40%;
             
         }
         .demoncast{
@@ -71,6 +72,27 @@
             padding: 5px 10px;
             color: black;
             margin: 2px;
+        }
+        @media only screen and (max-width: 1024px) {
+            .Demon{
+                width: 40%;
+                margin-left: 20%;
+                margin-top: 35px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            .Demon{
+                width: 60%;
+                /* margin-left: 5%; */
+                margin-top: 10%;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .Demon{
+                width: 100%;
+                margin-top: 10%;
+                margin-left: 0%;
+            }
         }
         
     </Style>

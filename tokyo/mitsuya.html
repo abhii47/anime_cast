@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Takashi Mitsuya</title>
     <Style>
         *{
@@ -102,6 +103,10 @@
             /* overflow: scroll; */
             /* scrollbar-width: none; */
         }
+        .detail u{
+            color: blue;
+        }
+
         .detail b{
             color: #1d2136;
             font-size: 18px;
@@ -139,6 +144,46 @@
             overflow: scroll;
             scrollbar-width: none;
         } */
+
+        @media screen and (max-width: 768px) {
+
+            .main-container{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0px;
+            }
+            .image-container{
+                width: 100%;
+                padding: 0px;
+            }
+            .detail-container{
+                width: 100%;
+                margin: 0px;
+            }
+            .memory{
+                width: 100%;
+            }
+            .detail{
+                padding: 0px 10px;
+            }
+            .ability{
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: auto;
+                column-gap: 20px;
+            }
+            .ability li{
+                list-style: circle;
+                width: 100%;
+            }
+            body{
+                background-image: url(https://i.pinimg.com/736x/83/96/48/839648a1e146b25ce834ef11a2d4968a.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+        }
     </Style>
 </head>
 <body>
@@ -179,55 +224,32 @@
         </div>
         <div class="detail-container">
             <div class="detail">
-                <p><b>Itachi Uchiha </b>&nbsp;(うちはイタチ, Uchiha Itachi) was a shinobi of Konohagakure's Uchiha clan 
-                    who served as an <mark>Anbu Captain</mark>. He later became an international criminal after murdering 
-                    his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international 
-                    criminal organisation known as <mark>Akatsuki</mark>, whose activity brought him into frequent conflict with 
-                    Konoha and its ninja — including Sasuke who sought to avenge their clan by killing Itachi. 
-                    Following his death, Itachi's motives were revealed to be more complicated than they seemed and 
-                    that his actions were only ever in the interest of his brother and village, making him remain a 
-                    loyal shinobi of Konohagakure to the very end.</p>
+                <p><b>Takashi Mitsuya</b> (三ツ谷みつや 隆たかし,, Mitsuya Takashi?) is a founding member and the Second 
+                    Division Captain (弐番隊 隊長, Niban-tai Taichō?) of the <u>Tokyo Manji Gang</u>. He is the older 
+                    brother of <u>Luna</u> and <u>Mana Mitsuya</u>.</p>
             </div>
             <div class="detail">
-                    <h3>Abilities</h3><hr>
-                    <div class="ability">
-                        <li>Chakra</li>
-                        <li>Bukijutsu</li>
-                        <li>Nature Transformation</li>
-                        <li>Genjutsu</li>
-                        <li>Sharingan</li>
-                        <li>Mangekyō Sharingan</li>
-                    </div>
-            </div>
-            <div class="detail">
-                <h3>Background</h3><hr>
-                <div class="info-div">
-                    <p>
-                        Itachi was the first child born to <mark>Mikoto</mark> and <mark>Fugaku Uchiha</mark>. His early childhood was marked with violence: when he was four years old, 
-                        the <mark>Third Shinobi World War</mark> waged and he witnessed first-hand many of the war's casualties. The death and destruction he experienced 
-                        at such a young age traumatised Itachi and made him a pacifist,[6] leading to him training non-stop to achieve his dream of becoming 
-                        a ninja among ninja in order to erase fighting from the world.[7] At age 5, after becoming a big brother to Sasuke, Itachi was approached 
-                        by <mark>Shisui</mark>, who offered to train together. Soon, the two became best friends, forming a brother-like bond as they continued to teach 
-                        the other new tricks. During the <mark>Nine-Tailed Demon Fox's Attack</mark>, he was home alone looking after Sasuke, followed by Itachi rescuing 
-                        Mikoto from falling debris,[8] and in the anime seeking shelter with <mark>Izumi</mark>.[9] The Nine-Tails' attack had soured relations between 
-                        Konoha's leadership and the Uchiha, the former believing the latter to be responsible. The Uchiha were relocated to the edge of the village, 
-                        isolating them from the rest of the village and making it easier to monitor them.
-                    </p>
+                <h3>Skills</h3><hr>
+                <div class="ability">
+                    <li>Authority</li>
+                    <p>Mitsuya was <mark>Tokyo Manji Gang</mark> Second Divison Captain, giving him command and authority over the division's members 
+                        and directly over <u>Hakkai Shiba</u>, his vice-captain.</p>
+                    <li>Fighting Prowess</li>
+                    <p>As the Second Division Captain, Mitsuya is shown to have strong fighting skills. 
+                        He is also well known for his fighting skills among the other gangs. He was able 
+                        to evenly trade blows with <u>Taiju Shiba</u> for a while.[5] Additionally, <u>Mocchi noted</u> 
+                        that he was impressed with Mitsuya's fighting skills.[6] Mitsuya was able to take numerous 
+                        punches from the powerful Taiju Shiba and also survived a blow to the head with a metal pipe 
+                        from <u>Seishu Inui</u>, who is known for his fighting skills.</p>
                 </div>
             </div>
             <div class="detail">
                 <h3>Personality</h3><hr>
                 <div class="info-div">
                     <p>
-                        From a young age, Itachi was calm and insightful, showing noticeable maturity for his age and knowledge on how to deal with every situation. 
-                        For all his accomplishments, talent, and fame, Itachi was a rather humble man. Never arrogant about his own abilities nor underestimating 
-                        others, most things he said would be unbiased and accurate. If an opponent exceeded his expectations or posed a legitimate challenge to him 
-                        or his allies, Itachi would freely admit it.[39] As a seven-year-old, his reasoning was on par with a <mark>Hokage</mark>. Having studied history, not 
-                        just of his clan or his village but of the world, he gained a broader appreciation of what was important. Learning so much enabled him to 
-                        understand how events of the past came to happen and, when he applied that same understanding into the future, he became concerned for where 
-                        things were going.[40] At the same time, Itachi was still fairly naïve as a child in many real-world scenarios and as such was willing to 
-                        learn from his peers on how to differentiate situations.[15] He lived at a distance, observing individuals and ideas without getting directly 
-                        involved so that he could fully understand them.[41]
+                        Mitsuya is a calm level-headed person who once served as the main source of positivity in <mark>Tokyo Manji Gang</mark>. 
+                        Despite his rough upbringing, he tackles every day with a smile. Mitsuya is a pacifist, preferring to not 
+                        get into an altercation if possible, but at the same time, will not hesitate to fight to protect what is dear to him.
                     </p>
                 </div>
             </div>
@@ -235,13 +257,11 @@
                 <h3>Appearance</h3><hr>
                 <div class="info-div">
                     <p>
-                        Itachi was a fairly tall man of fair complexion. He had black eyes, under which were long, pronounced tear-troughs. He had jet-black hair 
-                        that was pulled back in a low ponytail and his face was framed with centre-parted bangs that extended to his chin; the ponytail and 
-                        bangs grew longer over the years. His overall appearance was very similar to Sasuke's.[52][53] Even more, like his brother, he was 
-                        considered very handsome as many girls became infatuated with him.[9] When he lived in Konoha, his casual clothes consisted of a black 
-                        shirt with the Uchiha clan symbol on the back, bandages around his ankles, and black sandals. He wore tan pants with a weapons pouch 
-                        strapped to his back. When on duty, he would wear the standard Anbu uniform complete with arm guards, a flak jacket, and a porcelain mask 
-                        which was fashioned to resemble a weasel with a red, triangular marking on top.[54]
+                        Mitsuya is a young man with downturned lavender eyes, short silver-lilac hair, and a muscular body. He has a 
+                        concealed dragon tattoo identical to <u>Ken Ryuguji</u>'s on his right temple and a black huggie earring in a cross 
+                        design on his left ear. When not on gang duty, he wears a variety of casual outfits or the mandatory school 
+                        uniform. When he was a member of <mark>Tokyo Manji Gang</mark>, Mitsuya was most often seen wearing its uniform with the 
+                        white sash.
                     </p>
                 </div>
             </div>

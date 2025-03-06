@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annie Leonhart</title>
     <Style>
         *{
@@ -139,11 +140,84 @@
             overflow: scroll;
             scrollbar-width: none;
         } */
+
+        @media screen and (max-width: 768px) {
+
+            .main-container{
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0px;
+            }
+            .image-container{
+                width: 100%;
+                padding: 0px;
+            }
+            .detail-container{
+                width: 100%;
+                margin: 0px;
+            }
+            .memory{
+                width: 100%;
+            }
+            .detail{
+                padding: 0px 10px;
+            }
+            .ability{
+                width: 100%;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: auto;
+                column-gap: 20px;
+            }
+            .ability li{
+                list-style: circle;
+                width: 100%;
+            }
+            body{
+                background-image: url(https://i.pinimg.com/736x/24/6f/39/246f394cb6ded424790f10f4f95698e3.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+        }
     </Style>
 </head>
 <body>
     <a href="Allanime.html"><h2><center><b><span><mark style="color: black;">A</mark></span>NIME </b><ins> CAST</ins></center></h2></a>
     <div class="main-container">
+        <div class="image-container">
+            <div class="name-holder">
+                <h1>Annie Leonhart</h1>
+            </div>
+            <div class="itachi-img">
+                <img src="https://giffiles.alphacoders.com/219/219680.gif" height="100%" width="100%">
+            </div>
+            <div class="memory">
+                <div class="slide">
+                    <img src="https://media1.tenor.com/m/Osd-pLU33JcAAAAC/shingeki-no-kyojin-annie-leonhardt.gif" height="130px" width="220px">
+                </div>
+                <div class="slide">
+                    <img src="https://images.alphacoders.com/606/606218.jpg" height="130px" width="220px">
+                </div>
+                <div class="slide">
+                    <img src="https://images2.alphacoders.com/814/814899.png" height="130px" width="220px">
+                </div>
+                <div class="slide">
+                    <img src="https://images7.alphacoders.com/899/899060.png" height="130px" width="220px">
+                </div>
+                <div class="slide">
+                    <img src="https://images2.alphacoders.com/814/814824.png" height="130px" width="220px">
+                </div>
+                <div class="slide">
+                    <img src="https://images.alphacoders.com/607/607706.jpg" height="130px" width="220px">
+                </div>
+                
+               
+                
+                
+
+            </div>
+        </div> 
         <div class="detail-container">
             <div class="detail">
                 <p><b>Annie Leonhart</b> (アニ・レオンハート Ani Reonhāto?) is a graduate of the <mark>104th Training Corps</mark> and former member of 
@@ -191,39 +265,7 @@
             </div>
            
         </div>
-        <div class="image-container">
-            <div class="name-holder">
-                <h1>Annie Leonhart</h1>
-            </div>
-            <div class="itachi-img">
-                <img src="https://giffiles.alphacoders.com/219/219680.gif" height="100%" width="100%">
-            </div>
-            <div class="memory">
-                <div class="slide">
-                    <img src="https://media1.tenor.com/m/Osd-pLU33JcAAAAC/shingeki-no-kyojin-annie-leonhardt.gif" height="130px" width="220px">
-                </div>
-                <div class="slide">
-                    <img src="https://images.alphacoders.com/606/606218.jpg" height="130px" width="220px">
-                </div>
-                <div class="slide">
-                    <img src="https://images2.alphacoders.com/814/814899.png" height="130px" width="220px">
-                </div>
-                <div class="slide">
-                    <img src="https://images7.alphacoders.com/899/899060.png" height="130px" width="220px">
-                </div>
-                <div class="slide">
-                    <img src="https://images2.alphacoders.com/814/814824.png" height="130px" width="220px">
-                </div>
-                <div class="slide">
-                    <img src="https://images.alphacoders.com/607/607706.jpg" height="130px" width="220px">
-                </div>
-                
-               
-                
-                
-
-            </div>
-        </div>  
+         
     </div>
     
 </body>
